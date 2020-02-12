@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8109af2ed7.js"></script>
+  <title>Portfolio</title>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <section class="showcase">
+    <div class="container">
+      <nav class="nav-link">
+        <ul class="navList">
+          <!--<li id='nav1'></li>-->
+          <li class='nav_1'><a href="#">Home</a></li>
+          <li class='nav_1'><a href="#about">About</a></li>
+          <li class='nav_1'><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="myInfo">
+        <img src="images/sodiq.png" alt="my_picture">
+        <p><i class="fas fa-user-circle fa-xl"></i> Muhammed Sodiq</p>
+        <p><i class="fas fa-globe fa-xl"></i> Web Developer</p>
+        <p><i class="fas fa-graduation-cap"></i>University of Lagos</p>
+      </div>
+      <a href="#contact" class="btn showcase-btn">Let's Talk</a>
+    </div>
+  </section>
+  <!--project section-->
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="dash"></div>
+      <div class="proj-container">
+        <img class="grid-img"
+          src="images/img-gallery.png"
+          alt="img-gallery">
+        <img src="images/acme-web.png" alt=""
+          class="grid-img">
+        <img class="grid-img"
+          src="images/word-counter.png"
+          alt="word-counter">
+        <img class="grid-img"
+          src="images/filterable list.png" alt="">
+        <img class="grid-img"
+          src="images/weight-conv.png" alt="">
+        <img src="images/survey form.png" alt=""
+          class="grid-img">
+      </div>
+
+    </div>
+  </section>
+  <!--about page-->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="dash"></div>
+      <p class="summary">
+        I am a proactive web developer,currently pursing a bachelor degree in computer science
+      </p>
+      <div class="skills">
+        <h3 id='skill-h3'>Skills</h3>
+        <p>HTML</p>
+        <div class='progress-bar'>
+          <div class="progress-html">95%</div>
+        </div>
+        <p>CSS</p>
+        <div class='progress-bar'>
+          <div class="progress-css">80%</div>
+        </div>
+        <p>Javascript</p>
+        <div class='progress-bar'>
+          <div class="progress-javascript">60%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="dash"></div>
+      <form id="my-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder=" John Brad">
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="example@xyz.com">
+        <br><br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" cols="30" rows="10" id="message" placeholder=" Your message here..."></textarea>
+        <br><br>
+        <a href="#" class="btn contact-btn">Submit</a>
+      </form>
+    </div>
+  </section>
+  <footer class="my-footer">
+    <div class="container">
+
+    </div>
+  </footer>
+</body>
+
+</html>
